@@ -149,11 +149,11 @@
                         <p class="gabarito-alternativa">4 - C</p>
                         <p class="gabarito-alternativa">5 - B</p>
                     </div>
-                    <div class="titulo">
+                    <form class="titulo">
                         <p>E aí, quantas você acertou?</p>
-                        <input type="number" placeholder="Digite o número de acertos">
-                        <button onclick="enviarQuestionario()">Enviar</button>
-                    </div>
+                        <input type="number" placeholder="Digite o número de acertos" required>
+                        <input type="submit" value="Enviar" onclick="enviarQuestionario()" class="enviar">
+                    </form>
                     <div>
                         <a href="#page-1" class="inicio">Refazer o teste</a>
                     </div>

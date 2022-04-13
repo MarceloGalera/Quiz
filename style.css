@@ -149,8 +149,8 @@ input {
     padding: 5px;
 }
 
-button {
-    font-size: 1.3em;
+.enviar {
+    font-size: 1.1em;
     background-color: #fff;
     color:#000
 }

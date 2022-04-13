@@ -11,5 +11,5 @@ function respostaCorreta() {
 }
 
 function enviarQuestionario() {
-    alert("Obrigado pela participação!")
+    alert("Obrigado pela participação!");
 }
