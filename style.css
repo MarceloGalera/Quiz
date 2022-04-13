@@ -161,3 +161,7 @@ input {
     font-style: oblique;
     margin: 3em;
 }
+
+.acerto {
+    color: yellow;
+}
