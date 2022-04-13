@@ -11,33 +11,158 @@
     </head>
     
     <body>
-        <header>
-            <div class="titulo">
-                <h1 class="titulo-principal">Bem-vindo ao quiz do Galera</h1>
-                <p>Responda as perguntas e ao final confira a sua quantidade de acertos!</p>
-            </div>
-        </header>
         <main>
-            <section class="pergunta">
-                <p class="pergunta-numero">Pergunta 1/5</p>
-                <p class="pergunta-um">O que significa a sigla CSS?</p>
-                <p id="incorreta" onclick="respostaIncorreta()" class="alternativa-a">a) Creative Style Sheets</p>
-                <p id="incorreta" onclick="respostaIncorreta()" class="alternativa-b">b) Cascading Style Streets</p>
-                <p id="correta" onclick="respostaCorreta()"class="alternativa-c">c) Cascading Style Sheets</p>
-                <p id="incorreta" onclick="respostaIncorreta()" class="alternativa-d">d) Creative Style Streets</p>
+            <section id="page-1">
+                <header class="titulo">
+                    <h1 class="titulo-principal">Bem-vindo ao quiz do Galera</h1>
+                    <p>Responda as perguntas e ao final confira a sua quantidade de acertos!</p>
+                </header>
+                <main>
+                    <div class="pergunta">
+                        <p class="pergunta-numero">Pergunta 1/5</p>
+                        <p class="pergunta-um">O que significa a sigla CSS?</p>
+                        <p id="incorreta" onclick="respostaIncorreta()" class="alternativa-a">a) Creative Style Sheets</p>
+                        <p id="incorreta" onclick="respostaIncorreta()" class="alternativa-b">b) Cascading Style Streets</p>
+                        <p id="correta" onclick="respostaCorreta()"class="alternativa-c">c) Cascading Style Sheets</p>
+                        <p id="incorreta" onclick="respostaIncorreta()" class="alternativa-d">d) Creative Style Streets</p>
+                    </div>
+                    <div>
+                        <a href="#page-2" class="proxima-pergunta">Ir para a próxima pergunta</a>
+                        <a href="#page-1" class="inicio">Voltar do início</a>
+                    </div>
+                </main>
+                <footer>
+                    <p class="copyright">&copy; Copyright Marcelo Galera - 2022
+                </footer>
             </section>
 
-            <section class="proxima-pergunta">
-                <a href="pergunta2.html">Ir para a próxima pergunta</a>
+            <section id="page-2">
+                <header class="titulo">
+                    <h1 class="titulo-principal">Bem-vindo ao quiz do Galera</h1>
+                    <p>Responda as perguntas e ao final confira a sua quantidade de acertos!</p>
+                </header>
+                <main>
+                    <div class="pergunta">
+                        <p class="pergunta-numero">Pergunta 2/5</p>
+                        <p class="pergunta-um">No JavaScript, ao executarmos console.log(idade) em const idade = "27" + 4, qual o valor de saída?</p>
+                        <p onclick="respostaIncorreta()" class="alternativa-a">a) 31</p>
+                        <p onclick="respostaIncorreta()" class="alternativa-b">b) "27"4</p>
+                        <p onclick="respostaIncorreta()" class="alternativa-c">c) Ocorrerá um erro</p>
+                        <p id="correta" onclick="respostaCorreta()" class="alternativa-d">d) 274</p>
+                    </div>
+                    <div>
+                        <a href="#page-3" class="proxima-pergunta">Ir para a próxima pergunta</a>
+                        <a href="#page-1" class="proxima-pergunta">Voltar para a pergunta anterior</a>
+                        <a href="#page-1" class="inicio">Voltar do início</a>
+                    </div>
+                </main>
+                <footer>
+                    <p class="copyright">&copy; Copyright Marcelo Galera - 2022
+                </footer>
             </section>
 
-            <section class="inicio">
-                <a href="index.html">Voltar do início</a>
+            <section id="page-3">
+                <header class="titulo">
+                    <h1 class="titulo-principal">Bem-vindo ao quiz do Galera</h1>
+                    <p>Responda as perguntas e ao final confira a sua quantidade de acertos!</p>
+                </header>
+                <main>
+                    <div class="pergunta">
+                        <p class="pergunta-numero">Pergunta 3/5</p>
+                        <p class="pergunta-um">São tipos de linguagens de programação, exceto: </p>
+                        <p id="correta" onclick="respostaCorreta()" class="alternativa-a">a) Script</p>
+                        <p onclick="respostaIncorreta()" class="alternativa-b">b) PHP</p>
+                        <p onclick="respostaIncorreta()" class="alternativa-c">c) Java</p>
+                        <p onclick="respostaIncorreta()" class="alternativa-d">d) Python</p>
+                    </div>
+                    <div>
+                        <a href="#page-4" class="proxima-pergunta">Ir para a próxima pergunta</a>
+                        <a href="#page-2" class="proxima-pergunta">Voltar para a pergunta anterior</a>
+                        <a href="#page-1" class="inicio">Voltar do início</a>
+                    </div>
+                </main>
+                <footer>
+                    <p class="copyright">&copy; Copyright Marcelo Galera - 2022
+                </footer>
+            </section>
+
+            <section id="page-4">
+                <header class="titulo">
+                    <h1 class="titulo-principal">Bem-vindo ao quiz do Galera</h1>
+                    <p>Responda as perguntas e ao final confira a sua quantidade de acertos!</p>
+                </header>
+                <main>
+                    <div class="pergunta">
+                        <p class="pergunta-numero">Pergunta 4/5</p>
+                        <p class="pergunta-um">No CSS, como alteramos a margem interna de um elemento?</p>
+                        <p onclick="respostaIncorreta()" class="alternativa-a">a) margin: </p>
+                        <p onclick="respostaIncorreta()" class="alternativa-b">b) margin-inside: </p>
+                        <p id="correta" onclick="respostaCorreta()" class="alternativa-c">c) padding: </p>
+                        <p onclick="respostaIncorreta()" class="alternativa-d">d) border: </p>
+                    </div>
+                    <div>
+                        <a href="#page-5" class="proxima-pergunta">Ir para a próxima pergunta</a>
+                        <a href="#page-3" class="proxima-pergunta">Voltar para a pergunta anterior</a>
+                        <a href="#page-1" class="inicio">Voltar do início</a>
+                    </div>
+                </main>
+                <footer>
+                    <p class="copyright">&copy; Copyright Marcelo Galera - 2022
+                </footer>
+            </section>
+
+            <section id="page-5">
+                <header class="titulo">
+                    <h1 class="titulo-principal">Bem-vindo ao quiz do Galera</h1>
+                    <p>Responda as perguntas e ao final confira a sua quantidade de acertos!</p>
+                </header>
+                <main>
+                    <div class="pergunta">
+                        <p class="pergunta-numero">Pergunta 5/5</p>
+                        <p class="pergunta-um">No HTML, como inserimos uma imagem? </p>
+                        <p onclick="respostaIncorreta()" class="alternativa-a">a) img < src="imagem.png" > </p>
+                        <p id="correta" onclick="respostaCorreta()" class="alternativa-b">b) < img src="imagem.png" > </p>
+                        <p onclick="respostaIncorreta()" class="alternativa-c">c) img src="< imagem.png >" </p>
+                        <p onclick="respostaIncorreta()" class="alternativa-d">d) < img > src="imagem.png" </p>
+                    </div>
+                    <div>
+                        <a href="#page-final" class="proxima-pergunta">Finalizar o questionário</a>
+                        <a href="#page-4" class="proxima-pergunta">Voltar para a pergunta anterior</a>
+                        <a href="#page-1" class="inicio">Voltar do início</a>
+                    </div>
+                </main>
+                <footer>
+                    <p class="copyright">&copy; Copyright Marcelo Galera - 2022
+                </footer>
+            </section>
+
+            <section id="page-final">
+                <header class="titulo">
+                    <h1 class="titulo-principal">Meus parabéns, você finalizou o teste!</h1>
+                    <p>Confira aqui o gabarito das questões!</p>
+                </header>
+                <main>
+                    <div class="gabarito">
+                        <p class="gabarito-alternativa">1 - C</p>
+                        <p class="gabarito-alternativa">2 - D</p>
+                        <p class="gabarito-alternativa">3 - A</p>
+                        <p class="gabarito-alternativa">4 - C</p>
+                        <p class="gabarito-alternativa">5 - B</p>
+                    </div>
+                    <div class="titulo">
+                        <p>E aí, quantas você acertou?</p>
+                        <input type="number" placeholder="Digite o número de acertos">
+                        <button onclick="enviarQuestionario()">Enviar</button>
+                    </div>
+                    <div>
+                        <a href="#page-1" class="inicio">Refazer o teste</a>
+                    </div>
+                </main>
+                <footer>
+                    <p class="copyright">&copy; Copyright Marcelo Galera - 2022
+                </footer>
             </section>
         </main>
-        <footer>
-            <p class="copyright">&copy; Copyright Marcelo Galera - 2022
-        </footer>
     </body>
 
 </html>
